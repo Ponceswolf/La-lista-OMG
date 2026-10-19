@@ -1,0 +1,88 @@
+*{ 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background: white;
+    color: #333;
+    min-width: 100hv;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+h1{
+    color: #2735F5;
+    margin-bottom: 1rem;
+}
+
+form {
+    display: flex; 
+    gap: 0,5rem;
+    margin-bottom: 1rem;
+}
+
+#imput-tarea {
+    flex: 1;
+    padding: 0.6rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+button {
+    padding: 0.6rem;
+    border: none;
+    border-radius: 6px;
+    background: #4f4343;
+    color:white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #3a3ab0;
+}
+
+ul {
+    list-style: none;
+    width: 100%;
+    max-width: 400px;
+}
+
+.tarea {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ccc;
+    padding: 0.6rem 0.8rem;
+    border-radius: 6px;
+    margin-bottom: 0.5rem;
+    box-shadow: 0.1rem 3px rgba(red, green, blue, alpha);
+}
+
+.eliminar {
+    background: red;
+    padding: 0.3rem 0.6rem;
+}
+
+.eliminar:hover {
+    background: red;
+    padding: 0.3rem 0.6rem;
+}
+
+.completada {
+    background: green;
+}
+
+#contador-tareas {
+    margin-top: 1rem;
+    color: #666;
+    font-size: 0.9rem;
+}
+
+footer {
+    margin-top: auto;
+}
